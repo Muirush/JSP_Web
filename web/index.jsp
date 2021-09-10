@@ -27,7 +27,8 @@
               onclick="window.location='form.jsp'" />
                     </td>
                     <td>
-                         <input type="button" value="Emergency" name="Emergency" class="btn btn-outline-secondary" disabled="disabled" />
+                         <input type="button" value="Emergency" name="Emergency" class="btn btn-outline-secondary" disabled="disabled"
+                                onClick="window.location:'reports.jsp'"/>
                     </td>
                 </tr>
             </tbody>
