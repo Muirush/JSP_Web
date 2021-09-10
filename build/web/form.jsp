@@ -17,7 +17,7 @@
     <center>
         <h4>C-Section eligibility check</h4>
         
-        <form name="myform" action="form" method="POST">
+        <form name="myform" action="reports.jsp" method="POST">
             <table border="0">
                
                 <tbody>
@@ -52,7 +52,8 @@
                     </tr>
                 </tbody>
             </table>
-            <input type="submit" value="Check Eligibility" name="eligibility" class="btn btn-primary"/>
+            <input type="submit" value="Check Eligibility" name="eligibility" class="btn btn-primary"
+                   onClick="window.location:'reports.jsp'"/>
 
         </form>
         </center>
